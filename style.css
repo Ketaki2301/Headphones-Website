@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Varela Round', sans-serif;
+}
+#div1{
+    display:flex;
+    align-items:center;
+    justify-content: space-between ;
+    margin: 20px 5%;
+}
+#logodiv{
+    display:flex;
+    align-items: center;
+}
+#ul1{
+    display:flex;
+    list-style:none;
+}
+#buttonone{
+    margin-left:50px;
+    background-color:orangered;
+    color:bisque;
+    border-radius: 16px;
+    border:none;
+    height:30px;
+    width:100px;
+}
+#buttonone:hover{
+    background-color:rgb(165, 44, 0);
+    cursor: pointer;
+    
+}
+li{
+    margin-left:50px;
+    font-size: larger;
+}
+li:hover{
+    color:orangered;
+    font-size:20px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+#h1two{
+    font-size:60px;
+}
+#ul2{
+    margin-top:25px;
+    margin-left:125px;
+}
+h1{
+    margin-left:30px;
+}
+#div2{
+    display:flex;
+}
+#wordsdiv{
+    flex:1;
+    margin:auto 0;
+    margin-left:5%;
+    
+}
+#imgdiv{
+    flex:1;
+    margin: auto 0;
+    margin-left:5%;
+    height:80vh;
+    margin-top: 0;
+     
+}
+#buttontwo{
+    display:flex;
+}
+#buttonthree{
+    margin-left:20px;
+    background-color:orangered;
+    color:bisque;
+    border-radius: 24px;
+    border:none;
+    height:40px;
+    width:145px;
+}
+#buttonthree:hover{
+    background-color:rgb(165, 44, 0);
+    cursor: pointer;
+}
+p{
+    color:grey;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+#buttonfour{
+    margin-left:20px;
+    background-color:orangered;
+    color:bisque;
+    border-radius: 24px;
+    border:none;
+    height:40px;
+    width:145px;
+    margin-left:170px;
+}
